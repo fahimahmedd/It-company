@@ -56,16 +56,19 @@
 
 
   @mixin common-button {
-    padding: 6px 25px;
+    padding: 10px 25px;
     border-radius: 8px;
     background-color: $primaryColor;
-    font-size: 14px;
-    color: $blackColor;
+    font-size: 17px;
+    font-weight: 500;
+    color: $whiteColor;
     display: inline-block;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
+    i{
+      margin-right: 3px;
+    }
     &:hover{
-     background-color: #f0f0f0;
-     color: $blackColor;
+     background-color: #3b4aca;
     }
   }

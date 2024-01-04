@@ -1,0 +1,17 @@
+.common-hero{
+    padding: 100px 0;
+    .common-hero-wrapper{
+        text-align: center;
+        padding-top: 80px;
+        h2{
+            font-size: 42px;
+            font-weight: 700;
+            color: $blackColor;
+            line-height: 52px;
+        }
+        p{
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+    }
+}

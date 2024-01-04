@@ -1,0 +1,51 @@
+.course-categoryBox{
+   .course-categoryBox-wrapper{
+      .course-categoryBox-MixinColor{
+         .col{
+            &:nth-child(odd){
+               .course-categoryBox-wrap{
+                  background-color: $primaryColor;
+                  h4{
+                     color: $whiteColor;
+                  }
+               }
+            } 
+         }
+      }
+      .course-categoryBox-wrap{
+         height: 160px;
+         display: flex;
+         box-shadow: rgba(60, 64, 67, 0.093) 0px 1px 2px 0px, rgba(60, 64, 67, 0.09) 0px 2px 6px 2px;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         width: 100%;
+         border-radius: 16px;
+         margin-bottom: 24px;
+         &:hover{
+         transition: $transition;
+         transform: scale(1.05);
+         background-color: $primaryColor;
+         box-shadow: rgba(60, 64, 67, 0.204) 0px 1px 2px 0px, rgba(60, 64, 67, 0.158) 0px 2px 6px 2px;
+         }
+         &:hover h4{
+            color: $whiteColor;
+         }
+         cursor: pointer;
+         .icon-img {
+           padding-bottom: 10px;
+           img {
+             max-width: 50px;
+             max-height: 50px;
+             object-fit: contain;
+           }
+         }
+         h4 {
+           font-size: 17px;
+           line-height: 27px;
+           font-weight: 500;
+           color: $blackColor;
+         }
+      }
+   }
+}

@@ -2,20 +2,23 @@
 -----------------------------------*/
 
 // Colors
-$primaryColor: #0780d1 ;
-$secondaryColor: #2c3691;
+$primaryColor: #6571E2 ;
+$secondaryColor: #d23c75;
 $blackColor: #333;
+
 $whiteColor:#fff;
 $offwhiteColor:#e8e8e8; 
 $redColor:#FF4A4A;
 $greenColor: #19891f;
 $yellowColor: #F5EA5A;
-$textColor: rgb(113, 112, 112);
+$textColor: #787a82;
+$hoverPrimary: #4654cf;
 
 // Fonts Family
 $primary-font: 'Roboto', sans-serif;
 $secondary-font: 'Open Sans', sans-serif;
 
+$transition: all 0.3s ease-in-out;
 // Border-Color
 $primary-border: #d5d5d5;
 $secondary-border: #5e58583b;
