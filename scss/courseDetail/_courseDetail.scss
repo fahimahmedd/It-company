@@ -3,7 +3,6 @@
        background: linear-gradient(90deg,#fff,#f1f0f3,#e6e4f7,#f0effe,#e0e2f5);
        width: 100%;
        padding: 180px 0 60px 0;
-
        .course-overview-top-wrapper{
         text-align: center;
         // max-width: 900px;
@@ -95,6 +94,10 @@
           color: $whiteColor;
           transition: $transition;
         }
+      }
+      .active{
+        background-color: $primaryColor;
+        color: $whiteColor;
       }
     }
     h4{

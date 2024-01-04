@@ -140,7 +140,7 @@
                 }
                 &:hover::after{
                     color: $whiteColor;
-                }
+                } 
               }
               .swiper-button-next {
                 height: 40px;
@@ -169,7 +169,7 @@
 .course-item{
   height: 360px;
   width: 100%;
-  border-radius: 22px;
+  border-radius: 16px;
   background-color: #fff;
   border: 1px solid #c3c3c364;
   overflow: hidden;
