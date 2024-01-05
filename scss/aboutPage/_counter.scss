@@ -1,0 +1,133 @@
+.counter-main{
+    margin: 20px 0 50px 0;
+    .counter-wrapper{
+        max-width:1000px;
+        margin: 0 auto;
+        background-color: $primaryColor;
+        border-radius: 16px;
+        padding: 65px 0 50px 0;
+        .counter-wrap{
+            height: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            h5{
+                font-size: 40px;
+                color: $whiteColor;
+                font-weight: 700;
+                font-family: 'Roboto', sans-serif;
+            }
+            h6{
+                font-size: 15px;
+                color: $whiteColor;
+                padding-top: 15px;
+                line-height: 10px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+
+.success{
+    .success-wrapper{
+        .success-video{
+            .success-video-img{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                position: relative;
+                background-color: #cecece97;
+                border-radius: 16px;
+                overflow: hidden;
+                margin-top: 24px;
+                img{
+                    max-height: 360px;
+                    width: 100%;
+                    object-fit: contain;
+                }
+                .video-overly{
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    top: 0;
+                    left: 0;
+                    background-color: rgba(55, 55, 55, 0.3);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .video-play-button {
+                        position: absolute;
+                        z-index: 10;
+                        top: 50%;
+                        left: 50%;
+                        transform: translateX(-50%) translateY(-50%);
+                        box-sizing: content-box;
+                        display: block;
+                        width: 32px;
+                        height: 44px;
+                        /* background: #fa183d; */
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                      }
+                      
+                      .video-play-button:before {
+                        content: "";
+                        position: absolute;
+                        z-index: 0;
+                        left: 50%;
+                        top: 50%;
+                        transform: translateX(-50%) translateY(-50%);
+                        display: block;
+                        width: 60px;
+                        height: 60px;
+                        background: $whiteColor;
+                        border-radius: 50%;
+                        animation: pulse-border 1500ms ease-out infinite;
+                      }
+                      
+                      .video-play-button:after {
+                        content: "";
+                        position: absolute;
+                        z-index: 1;
+                        left: 50%;
+                        top: 50%;
+                        transform: translateX(-50%) translateY(-50%);
+                        display: block;
+                        width: 60px;
+                        height: 60px;
+                        background: $whiteColor;
+                        border-radius: 50%;
+                        transition: all 200ms;
+                      }
+                      
+                      .video-play-button:hover:after {
+                        background-color: darken($primaryColor, 10%);
+                      }
+                      
+                      .video-play-button img {
+                        position: relative;
+                        z-index: 3;
+                        max-width: 100%;
+                        width: auto;
+                        height: auto;
+                      }
+                      
+                      .video-play-button i {
+                        position: relative;
+                        z-index: 4;
+                        font-size: 28px;
+                        color: $thirdColor;
+                        margin-left: 3px;
+                      }
+            
+                }
+            }
+        }
+        
+    }
+}

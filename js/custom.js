@@ -1,5 +1,4 @@
 $(function () {
-  // Counter
 
 
   // Course-Category-Slider
@@ -124,6 +123,10 @@ $(function () {
   });
   
 });
+
+
+ // countup
+ $('.counter').countUp();
 
 // Aos Animation
 AOS.init();
