@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iCircles </title>
-    <link rel="shortcut icon" href="" type="image/png">
+    <title>Lemmesay IT </title>
+    <link rel="icon" type="image/x-icon" href="./images/LMS-1.jpg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -59,17 +59,16 @@
                             <li><a href="index.html"> হোম</a></li>
                             <li><a href="about.html"> আমাদের সম্পর্কে </a></li>
                             <li><a href="success.html"> সাফল্যের গল্প </a></li>
-                            <li><a href="#"> যোগাযোগ </a></li>
+                            <li><a href="contact.html"> যোগাযোগ </a></li>
                         </ul>
-                        <a href="#">
+                        <a href="seminer.html">
                             <div class="course_btn free-seminar">
-                                 ফ্রি সেমিনার 
+                                ফ্রি সেমিনার
                             </div>
                         </a>
                         <a href="allCourseList.html">
                             <div class="course_btn">
-                                ব্রাউজ কোর্স <i
-                                    class="fa-solid fa-caret-down"></i>
+                                ব্রাউজ কোর্স <i class="fa-solid fa-caret-down"></i>
                             </div>
                         </a>
                     </div>
@@ -139,7 +138,7 @@
                 <div class="swiper courseCategorySlider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <a href="#">
+                            <a href="courseItemList.html">
                                 <div class="course-category-item">
                                     <div class="icon-img">
                                         <img src="./images/icon-1.png" alt="">
@@ -149,7 +148,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#">
+                            <a href="courseItemList.html">
                                 <div class="course-category-item">
                                     <div class="icon-img">
                                         <img src="./images/icon-2.png" alt="">
@@ -159,7 +158,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#">
+                            <a href="courseItemList.html">
                                 <div class="course-category-item">
                                     <div class="icon-img">
                                         <img src="./images/icon-3.png" alt="">
@@ -169,7 +168,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#">
+                            <a href="courseItemList.html">
                                 <div class="course-category-item">
                                     <div class="icon-img">
                                         <img src="./images/icon-4.png" alt="">
@@ -179,7 +178,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#">
+                            <a href="courseItemList.html">
                                 <div class="course-category-item">
                                     <div class="icon-img">
                                         <img src="./images/icon-1.png" alt="">
@@ -189,7 +188,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#">
+                            <a href="courseItemList.html">
                                 <div class="course-category-item">
                                     <div class="icon-img">
                                         <img src="./images/icon-2.png" alt="">
@@ -199,7 +198,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#">
+                            <a href="courseItemList.html">
                                 <div class="course-category-item">
                                     <div class="icon-img">
                                         <img src="./images/icon-3.png" alt="">
@@ -244,8 +243,8 @@
                     <div class="swiper courseItemSlider">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <a href="#">
-                                    <div class="course-item">
+                                <div class="course-item">
+                                    <a href="courseDetail.html">
                                         <div class="course-item-img">
                                             <img src="./images/course-1.jpg" alt="">
                                         </div>
@@ -261,24 +260,25 @@
                                                     <i class="fa-solid fa-star"></i>
                                                     ৫০০ রিভিউস
                                                 </span>
-
+    
                                                 <span>৩,৫০০ স্টুডেন্ট</span>
                                             </div>
-                                            <div class="course-item-footer">
-                                                <div class="course-fee">
-                                                    <span>কোর্স ফি</span> ৫০,০০০ ৳
-                                                </div>
-                                                <div class="discount-btn">
-                                                    Click for Discount
-                                                </div>
-                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="course-item-footer">
+                                        <div class="course-fee">
+                                            <span>কোর্স ফি</span> ৫০,০০০ ৳
+                                        </div>
+                                        <div class="discount-btn" data-bs-toggle="modal"
+                                            data-bs-target="#discountFormModal">
+                                            Click for Discount
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="swiper-slide">
-                                <a href="#">
-                                    <div class="course-item">
+                                <div class="course-item">
+                                    <a href="courseDetail.html">
                                         <div class="course-item-img">
                                             <img src="./images/course-2.jpg" alt="">
                                         </div>
@@ -294,57 +294,90 @@
                                                     <i class="fa-solid fa-star"></i>
                                                     ৫০০ রিভিউস
                                                 </span>
-
                                                 <span>৩,৫০০ স্টুডেন্ট</span>
                                             </div>
-                                            <div class="course-item-footer">
-                                                <div class="course-fee">
-                                                    <span>কোর্স ফি</span> ৫০,০০০ ৳
+                                        </div>
+                                    </a>
+                                    <div class="course-item-footer">
+                                        <div class="course-fee">
+                                            <span>কোর্স ফি</span> ৫০,০০০ ৳
+                                        </div>
+                                        <div class="discount-btn" data-bs-toggle="modal"
+                                        data-bs-target="#discountFormModal">
+                                            Click for Discount
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                    <div class="course-item">
+                                        <a href="courseDetail.html">
+                                            <div class="course-item-img">
+                                                <img src="./images/course-3.jpg" alt="">
+                                            </div>
+                                            <div class="course-item-content">
+                                                <h4>সকল কোর্স</h4>
+                                                <h2>মোশন গ্রাফিক্স</h2>
+                                                <div class="course-item-rating">
+                                                    <span>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        ৫০০ রিভিউস
+                                                    </span>
+                                                    <span>৩,৫০০ স্টুডেন্ট</span>
                                                 </div>
-                                                <div class="discount-btn">
-                                                    Click for Discount
-                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="course-item-footer">
+                                            <div class="course-fee">
+                                                <span>কোর্স ফি</span> ৫০,০০০ ৳
+                                            </div>
+                                            <div class="discount-btn" data-bs-toggle="modal"
+                                            data-bs-target="#discountFormModal">
+                                                Click for Discount
                                             </div>
                                         </div>
                                     </div>
-                                </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="#">
                                     <div class="course-item">
-                                        <div class="course-item-img">
-                                            <img src="./images/course-3.jpg" alt="">
-                                        </div>
-                                        <div class="course-item-content">
-                                            <h4>সকল কোর্স</h4>
-                                            <h2>মোশন গ্রাফিক্স</h2>
-                                            <div class="course-item-rating">
-                                                <span>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    ৫০০ রিভিউস
-                                                </span>
-
-                                                <span>৩,৫০০ স্টুডেন্ট</span>
+                                        <a href="courseDetail.html">
+                                            <div class="course-item-img">
+                                                <img src="./images/course-4.jpg" alt="">
                                             </div>
-                                            <div class="course-item-footer">
-                                                <div class="course-fee">
-                                                    <span>কোর্স ফি</span> ৫০,০০০ ৳
+                                            <div class="course-item-content">
+                                                <h4>সকল কোর্স</h4>
+                                                <h2>মোশন গ্রাফিক্স</h2>
+                                                <div class="course-item-rating">
+                                                    <span>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        ৫০০ রিভিউস
+                                                    </span>
+                                                    <span>৩,৫০০ স্টুডেন্ট</span>
                                                 </div>
-                                                <div class="discount-btn">
-                                                    Click for Discount
-                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="course-item-footer">
+                                            <div class="course-fee">
+                                                <span>কোর্স ফি</span> ৫০,০০০ ৳
+                                            </div>
+                                            <div class="discount-btn" data-bs-toggle="modal"
+                                            data-bs-target="#discountFormModal">
+                                                Click for Discount
                                             </div>
                                         </div>
                                     </div>
-                                </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="#">
-                                    <div class="course-item">
+                                <div class="course-item">
+                                    <a href="courseDetail.html">
                                         <div class="course-item-img">
                                             <img src="./images/course-4.jpg" alt="">
                                         </div>
@@ -360,53 +393,20 @@
                                                     <i class="fa-solid fa-star"></i>
                                                     ৫০০ রিভিউস
                                                 </span>
-
                                                 <span>৩,৫০০ স্টুডেন্ট</span>
                                             </div>
-                                            <div class="course-item-footer">
-                                                <div class="course-fee">
-                                                    <span>কোর্স ফি</span> ৫০,০০০ ৳
-                                                </div>
-                                                <div class="discount-btn">
-                                                    Click for Discount
-                                                </div>
-                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="course-item-footer">
+                                        <div class="course-fee">
+                                            <span>কোর্স ফি</span> ৫০,০০০ ৳
+                                        </div>
+                                        <div class="discount-btn" data-bs-toggle="modal"
+                                        data-bs-target="#discountFormModal">
+                                            Click for Discount
                                         </div>
                                     </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="#">
-                                    <div class="course-item">
-                                        <div class="course-item-img">
-                                            <img src="./images/course-4.jpg" alt="">
-                                        </div>
-                                        <div class="course-item-content">
-                                            <h4>সকল কোর্স</h4>
-                                            <h2>মোশন গ্রাফিক্স</h2>
-                                            <div class="course-item-rating">
-                                                <span>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    ৫০০ রিভিউস
-                                                </span>
-
-                                                <span>৩,৫০০ স্টুডেন্ট</span>
-                                            </div>
-                                            <div class="course-item-footer">
-                                                <div class="course-fee">
-                                                    <span>কোর্স ফি</span> ৫০,০০০ ৳
-                                                </div>
-                                                <div class="discount-btn">
-                                                    Click for Discount
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                         <div class="swiper-button-next"></div>
@@ -554,8 +554,8 @@
                 <h3> ডিজাইন এন্ড মাল্টিমিডিয়া </h3>
                 <div class="row justify-content-center">
                     <div class="col-lg-4">
-                        <a href="#">
-                            <div class="course-item mb-5">
+                        <div class="course-item mb-5">
+                            <a href="courseDetail.html">
                                 <div class="course-item-img">
                                     <img src="./images/course-1.jpg" alt="">
                                 </div>
@@ -571,86 +571,90 @@
                                             <i class="fa-solid fa-star"></i>
                                             ৫০০ রিভিউস
                                         </span>
-
                                         <span>৩,৫০০ স্টুডেন্ট</span>
                                     </div>
-                                    <div class="course-item-footer">
-                                        <div class="course-fee">
-                                            <span>কোর্স ফি</span> ৫০,০০০ ৳
-                                        </div>
-                                        <div class="discount-btn">
-                                            Click for Discount
-                                        </div>
-                                    </div>
+                                   
+                                </div>
+                            </a>
+                            <div class="course-item-footer">
+                                <div class="course-fee">
+                                    <span>কোর্স ফি</span> ৫০,০০০ ৳
+                                </div>
+                                <div class="discount-btn" data-bs-toggle="modal"
+                                data-bs-target="#discountFormModal">
+                                    Click for Discount
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="col-lg-4">
-                        <a href="#">
                             <div class="course-item mb-5">
-                                <div class="course-item-img">
-                                    <img src="./images/course-2.jpg" alt="">
-                                </div>
-                                <div class="course-item-content">
-                                    <h4>সকল কোর্স</h4>
-                                    <h2>মোশন গ্রাফিক্স</h2>
-                                    <div class="course-item-rating">
-                                        <span>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            ৫০০ রিভিউস
-                                        </span>
-
-                                        <span>৩,৫০০ স্টুডেন্ট</span>
+                                <a href="courseDetail.html">
+                                    <div class="course-item-img">
+                                        <img src="./images/course-2.jpg" alt="">
                                     </div>
-                                    <div class="course-item-footer">
-                                        <div class="course-fee">
-                                            <span>কোর্স ফি</span> ৫০,০০০ ৳
+                                    <div class="course-item-content">
+                                        <h4>সকল কোর্স</h4>
+                                        <h2>মোশন গ্রাফিক্স</h2>
+                                        <div class="course-item-rating">
+                                            <span>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                ৫০০ রিভিউস
+                                            </span>
+    
+                                            <span>৩,৫০০ স্টুডেন্ট</span>
                                         </div>
-                                        <div class="discount-btn">
-                                            Click for Discount
-                                        </div>
+                                       
+                                    </div>
+                                </a>
+                                <div class="course-item-footer">
+                                    <div class="course-fee">
+                                        <span>কোর্স ফি</span> ৫০,০০০ ৳
+                                    </div>
+                                    <div class="discount-btn" data-bs-toggle="modal"
+                                    data-bs-target="#discountFormModal">
+                                        Click for Discount
                                     </div>
                                 </div>
                             </div>
-                        </a>
                     </div>
                     <div class="col-lg-4">
-                        <a href="#">
                             <div class="course-item mb-5">
-                                <div class="course-item-img">
-                                    <img src="./images/course-3.jpg" alt="">
-                                </div>
-                                <div class="course-item-content">
-                                    <h4>সকল কোর্স</h4>
-                                    <h2>মোশন গ্রাফিক্স</h2>
-                                    <div class="course-item-rating">
-                                        <span>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            ৫০০ রিভিউস
-                                        </span>
-
-                                        <span>৩,৫০০ স্টুডেন্ট</span>
+                                <a href="courseDetail.html">
+                                    <div class="course-item-img">
+                                        <img src="./images/course-3.jpg" alt="">
                                     </div>
-                                    <div class="course-item-footer">
-                                        <div class="course-fee">
-                                            <span>কোর্স ফি</span> ৫০,০০০ ৳
+                                    <div class="course-item-content">
+                                        <h4>সকল কোর্স</h4>
+                                        <h2>মোশন গ্রাফিক্স</h2>
+                                        <div class="course-item-rating">
+                                            <span>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                ৫০০ রিভিউস
+                                            </span>
+    
+                                            <span>৩,৫০০ স্টুডেন্ট</span>
                                         </div>
-                                        <div class="discount-btn">
-                                            Click for Discount
-                                        </div>
+                                    </div>
+                                </a>
+                                <div class="course-item-footer">
+                                    <div class="course-fee">
+                                        <span>কোর্স ফি</span> ৫০,০০০ ৳
+                                    </div>
+                                    <div class="discount-btn" data-bs-toggle="modal"
+                                    data-bs-target="#discountFormModal">
+                                        Click for Discount
                                     </div>
                                 </div>
                             </div>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -658,41 +662,41 @@
                 <h3> ওয়েব এন্ড সফটওয়্যার</h3>
                 <div class="row justify-content-center">
                     <div class="col-lg-4">
-                        <a href="#">
                             <div class="course-item mb-5">
-                                <div class="course-item-img">
-                                    <img src="./images/course-2.jpg" alt="">
-                                </div>
-                                <div class="course-item-content">
-                                    <h4>সকল কোর্স</h4>
-                                    <h2>মোশন গ্রাফিক্স</h2>
-                                    <div class="course-item-rating">
-                                        <span>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            ৫০০ রিভিউস
-                                        </span>
-
-                                        <span>৩,৫০০ স্টুডেন্ট</span>
+                                <a href="courseDetail.html">
+                                    <div class="course-item-img">
+                                        <img src="./images/course-2.jpg" alt="">
                                     </div>
-                                    <div class="course-item-footer">
-                                        <div class="course-fee">
-                                            <span>কোর্স ফি</span> ৫০,০০০ ৳
+                                    <div class="course-item-content">
+                                        <h4>সকল কোর্স</h4>
+                                        <h2>মোশন গ্রাফিক্স</h2>
+                                        <div class="course-item-rating">
+                                            <span>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                ৫০০ রিভিউস
+                                            </span>
+                                            <span>৩,৫০০ স্টুডেন্ট</span>
                                         </div>
-                                        <div class="discount-btn">
-                                            Click for Discount
-                                        </div>
+                                    </div>
+                                </a>
+                                <div class="course-item-footer">
+                                    <div class="course-fee">
+                                        <span>কোর্স ফি</span> ৫০,০০০ ৳
+                                    </div>
+                                    <div class="discount-btn" data-bs-toggle="modal"
+                                    data-bs-target="#discountFormModal">
+                                        Click for Discount
                                     </div>
                                 </div>
                             </div>
-                        </a>
                     </div>
                     <div class="col-lg-4">
-                        <a href="#">
-                            <div class="course-item mb-5">
+                        <div class="course-item mb-5">
+                            <a href="courseDetail.html">
                                 <div class="course-item-img">
                                     <img src="./images/course-1.jpg" alt="">
                                 </div>
@@ -708,52 +712,53 @@
                                             <i class="fa-solid fa-star"></i>
                                             ৫০০ রিভিউস
                                         </span>
-
                                         <span>৩,৫০০ স্টুডেন্ট</span>
                                     </div>
-                                    <div class="course-item-footer">
-                                        <div class="course-fee">
-                                            <span>কোর্স ফি</span> ৫০,০০০ ৳
-                                        </div>
-                                        <div class="discount-btn">
-                                            Click for Discount
-                                        </div>
-                                    </div>
+                                </div>
+                            </a>
+                            <div class="course-item-footer">
+                                <div class="course-fee">
+                                    <span>কোর্স ফি</span> ৫০,০০০ ৳
+                                </div>
+                                <div class="discount-btn" data-bs-toggle="modal"
+                                data-bs-target="#discountFormModal">
+                                    Click for Discount
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="col-lg-4">
-                        <a href="#">
                             <div class="course-item mb-5">
-                                <div class="course-item-img">
-                                    <img src="./images/course-3.jpg" alt="">
-                                </div>
-                                <div class="course-item-content">
-                                    <h4>সকল কোর্স</h4>
-                                    <h2>মোশন গ্রাফিক্স</h2>
-                                    <div class="course-item-rating">
-                                        <span>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            ৫০০ রিভিউস
-                                        </span>
-                                        <span>৩,৫০০ স্টুডেন্ট</span>
+                                <a href="courseDetail.html">
+                                    <div class="course-item-img">
+                                        <img src="./images/course-3.jpg" alt="">
                                     </div>
-                                    <div class="course-item-footer">
-                                        <div class="course-fee">
-                                            <span>কোর্স ফি</span> ৫০,০০০ ৳
+                                    <div class="course-item-content">
+                                        <h4>সকল কোর্স</h4>
+                                        <h2>মোশন গ্রাফিক্স</h2>
+                                        <div class="course-item-rating">
+                                            <span>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                ৫০০ রিভিউস
+                                            </span>
+                                            <span>৩,৫০০ স্টুডেন্ট</span>
                                         </div>
-                                        <div class="discount-btn">
-                                            Click for Discount
-                                        </div>
+                                    </div>
+                                </a>
+                                <div class="course-item-footer">
+                                    <div class="course-fee">
+                                        <span>কোর্স ফি</span> ৫০,০০০ ৳
+                                    </div>
+                                    <div class="discount-btn" data-bs-toggle="modal"
+                                    data-bs-target="#discountFormModal">
+                                        Click for Discount
                                     </div>
                                 </div>
                             </div>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -774,8 +779,14 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="common-feature-text">
-                                 <h3>প্র্যাকটিক্যাল প্রজেক্টের মাধ্যমে শিক্ষাদান আমাদের বিশেষত্ব</h3>
-                                 <p>প্র্যাকটিক্যাল প্রজেক্ট ছাড়া যেকোনো শিক্ষা অপূর্ণ। এক জরিপে দেখা গেছে, কেবল হাতে-কলমে শিক্ষার অভাবে চাকরি জীবনে ভোগান্তির শিকার হন ৬৭ শতাংশ মানুষ। তাছাড়া মার্কেটপ্লেস বা লোকাল জবে একটি পোর্টফোলিও না থাকলে কাজ পেতেও অনেক সময় লাগে। সব ক্যারিয়ারের শুরুতে কম-বেশি সবাই এই সমস্যায় ভোগেন। তাই ক্রিয়েটিভ আইটি বিশ্বাস করে হাতে-কলমে শিক্ষার উপর। এজন্যই আমাদের প্রতিটি কোর্সে রাখা হয়েছে পর্যাপ্ত সংখ্যক প্রজেক্ট। আপনি যদি আমাদের দক্ষ মেন্টরের তত্ত্বাবধানে সবগুলো প্রজেক্ট শেষ করেন, তাহলে কোর্স চলাকালীন সময়েই নিজের একটি ভালো পোর্টফোলিও তৈরি করতে পারবেন।</p>
+                                <h3>প্র্যাকটিক্যাল প্রজেক্টের মাধ্যমে শিক্ষাদান আমাদের বিশেষত্ব</h3>
+                                <p>প্র্যাকটিক্যাল প্রজেক্ট ছাড়া যেকোনো শিক্ষা অপূর্ণ। এক জরিপে দেখা গেছে, কেবল হাতে-কলমে
+                                    শিক্ষার অভাবে চাকরি জীবনে ভোগান্তির শিকার হন ৬৭ শতাংশ মানুষ। তাছাড়া মার্কেটপ্লেস বা
+                                    লোকাল জবে একটি পোর্টফোলিও না থাকলে কাজ পেতেও অনেক সময় লাগে। সব ক্যারিয়ারের শুরুতে
+                                    কম-বেশি সবাই এই সমস্যায় ভোগেন। তাই ক্রিয়েটিভ আইটি বিশ্বাস করে হাতে-কলমে শিক্ষার উপর।
+                                    এজন্যই আমাদের প্রতিটি কোর্সে রাখা হয়েছে পর্যাপ্ত সংখ্যক প্রজেক্ট। আপনি যদি আমাদের
+                                    দক্ষ মেন্টরের তত্ত্বাবধানে সবগুলো প্রজেক্ট শেষ করেন, তাহলে কোর্স চলাকালীন সময়েই
+                                    নিজের একটি ভালো পোর্টফোলিও তৈরি করতে পারবেন।</p>
                             </div>
                         </div>
                     </div>
@@ -787,8 +798,14 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="common-feature-text">
-                                 <h3>প্র্যাকটিক্যাল প্রজেক্টের মাধ্যমে শিক্ষাদান আমাদের বিশেষত্ব</h3>
-                                 <p>প্র্যাকটিক্যাল প্রজেক্ট ছাড়া যেকোনো শিক্ষা অপূর্ণ। এক জরিপে দেখা গেছে, কেবল হাতে-কলমে শিক্ষার অভাবে চাকরি জীবনে ভোগান্তির শিকার হন ৬৭ শতাংশ মানুষ। তাছাড়া মার্কেটপ্লেস বা লোকাল জবে একটি পোর্টফোলিও না থাকলে কাজ পেতেও অনেক সময় লাগে। সব ক্যারিয়ারের শুরুতে কম-বেশি সবাই এই সমস্যায় ভোগেন। তাই ক্রিয়েটিভ আইটি বিশ্বাস করে হাতে-কলমে শিক্ষার উপর। এজন্যই আমাদের প্রতিটি কোর্সে রাখা হয়েছে পর্যাপ্ত সংখ্যক প্রজেক্ট। আপনি যদি আমাদের দক্ষ মেন্টরের তত্ত্বাবধানে সবগুলো প্রজেক্ট শেষ করেন, তাহলে কোর্স চলাকালীন সময়েই নিজের একটি ভালো পোর্টফোলিও তৈরি করতে পারবেন।</p>
+                                <h3>প্র্যাকটিক্যাল প্রজেক্টের মাধ্যমে শিক্ষাদান আমাদের বিশেষত্ব</h3>
+                                <p>প্র্যাকটিক্যাল প্রজেক্ট ছাড়া যেকোনো শিক্ষা অপূর্ণ। এক জরিপে দেখা গেছে, কেবল হাতে-কলমে
+                                    শিক্ষার অভাবে চাকরি জীবনে ভোগান্তির শিকার হন ৬৭ শতাংশ মানুষ। তাছাড়া মার্কেটপ্লেস বা
+                                    লোকাল জবে একটি পোর্টফোলিও না থাকলে কাজ পেতেও অনেক সময় লাগে। সব ক্যারিয়ারের শুরুতে
+                                    কম-বেশি সবাই এই সমস্যায় ভোগেন। তাই ক্রিয়েটিভ আইটি বিশ্বাস করে হাতে-কলমে শিক্ষার উপর।
+                                    এজন্যই আমাদের প্রতিটি কোর্সে রাখা হয়েছে পর্যাপ্ত সংখ্যক প্রজেক্ট। আপনি যদি আমাদের
+                                    দক্ষ মেন্টরের তত্ত্বাবধানে সবগুলো প্রজেক্ট শেষ করেন, তাহলে কোর্স চলাকালীন সময়েই
+                                    নিজের একটি ভালো পোর্টফোলিও তৈরি করতে পারবেন।</p>
                             </div>
                         </div>
                     </div>
@@ -800,8 +817,14 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="common-feature-text">
-                                 <h3>প্র্যাকটিক্যাল প্রজেক্টের মাধ্যমে শিক্ষাদান আমাদের বিশেষত্ব</h3>
-                                 <p>প্র্যাকটিক্যাল প্রজেক্ট ছাড়া যেকোনো শিক্ষা অপূর্ণ। এক জরিপে দেখা গেছে, কেবল হাতে-কলমে শিক্ষার অভাবে চাকরি জীবনে ভোগান্তির শিকার হন ৬৭ শতাংশ মানুষ। তাছাড়া মার্কেটপ্লেস বা লোকাল জবে একটি পোর্টফোলিও না থাকলে কাজ পেতেও অনেক সময় লাগে। সব ক্যারিয়ারের শুরুতে কম-বেশি সবাই এই সমস্যায় ভোগেন। তাই ক্রিয়েটিভ আইটি বিশ্বাস করে হাতে-কলমে শিক্ষার উপর। এজন্যই আমাদের প্রতিটি কোর্সে রাখা হয়েছে পর্যাপ্ত সংখ্যক প্রজেক্ট। আপনি যদি আমাদের দক্ষ মেন্টরের তত্ত্বাবধানে সবগুলো প্রজেক্ট শেষ করেন, তাহলে কোর্স চলাকালীন সময়েই নিজের একটি ভালো পোর্টফোলিও তৈরি করতে পারবেন।</p>
+                                <h3>প্র্যাকটিক্যাল প্রজেক্টের মাধ্যমে শিক্ষাদান আমাদের বিশেষত্ব</h3>
+                                <p>প্র্যাকটিক্যাল প্রজেক্ট ছাড়া যেকোনো শিক্ষা অপূর্ণ। এক জরিপে দেখা গেছে, কেবল হাতে-কলমে
+                                    শিক্ষার অভাবে চাকরি জীবনে ভোগান্তির শিকার হন ৬৭ শতাংশ মানুষ। তাছাড়া মার্কেটপ্লেস বা
+                                    লোকাল জবে একটি পোর্টফোলিও না থাকলে কাজ পেতেও অনেক সময় লাগে। সব ক্যারিয়ারের শুরুতে
+                                    কম-বেশি সবাই এই সমস্যায় ভোগেন। তাই ক্রিয়েটিভ আইটি বিশ্বাস করে হাতে-কলমে শিক্ষার উপর।
+                                    এজন্যই আমাদের প্রতিটি কোর্সে রাখা হয়েছে পর্যাপ্ত সংখ্যক প্রজেক্ট। আপনি যদি আমাদের
+                                    দক্ষ মেন্টরের তত্ত্বাবধানে সবগুলো প্রজেক্ট শেষ করেন, তাহলে কোর্স চলাকালীন সময়েই
+                                    নিজের একটি ভালো পোর্টফোলিও তৈরি করতে পারবেন।</p>
                             </div>
                         </div>
                     </div>
@@ -815,8 +838,9 @@
     <div class="review">
         <div>
             <div class="secction-heding">
-                <h4> শিক্ষার্থীদের কথা  </h4>
-                <p> প্র্যাকটিক্যাল প্রজেক্ট ছাড়া যেকোনো শিক্ষা অপূর্ণ। এক জরিপে দেখা গেছে, কেবল হাতে-কলমে শিক্ষার অভাবে চাকরি জীবনে ভোগান্তির</p>
+                <h4> শিক্ষার্থীদের কথা </h4>
+                <p> প্র্যাকটিক্যাল প্রজেক্ট ছাড়া যেকোনো শিক্ষা অপূর্ণ। এক জরিপে দেখা গেছে, কেবল হাতে-কলমে শিক্ষার অভাবে
+                    চাকরি জীবনে ভোগান্তির</p>
             </div>
             <div class="review-slider">
                 <div class="swiper reviewSwiper">
@@ -825,7 +849,8 @@
                             <div class="review-item">
                                 <div class="review-text">
                                     <span>"</span>
-                                    প্র্যাকটিক্যাল প্রজেক্ট ছাড়া যেকোনো শিক্ষা অপূর্ণ। এক জরিপে দেখা গেছে, কেবল হাতে-কলমে শিক্ষার অভাবে চাকরি জীবনে ভোগান্তির
+                                    প্র্যাকটিক্যাল প্রজেক্ট ছাড়া যেকোনো শিক্ষা অপূর্ণ। এক জরিপে দেখা গেছে, কেবল
+                                    হাতে-কলমে শিক্ষার অভাবে চাকরি জীবনে ভোগান্তির
                                     <span>"</span>
                                 </div>
                                 <div class="review-bottom">
@@ -843,9 +868,10 @@
                             <div class="review-item">
                                 <div class="review-text">
                                     <span>"</span>
-                                    বহুকাল হইলো আমি একবার পালামৌ প্রদেশে গিয়াছিলাম, 
-                                    প্রত্যাগমন করিলে পর সেই অঞ্চলের বৃত্তান্ত লিখিবার নিমিত্ত দুই-এক জন বন্ধুবান্ধব আমাকে পুনঃপুন অনুরোধ করিতেন, 
-                                    আমি তখন তাঁহাদের উপহাস করিতাম। 
+                                    বহুকাল হইলো আমি একবার পালামৌ প্রদেশে গিয়াছিলাম,
+                                    প্রত্যাগমন করিলে পর সেই অঞ্চলের বৃত্তান্ত লিখিবার নিমিত্ত দুই-এক জন বন্ধুবান্ধব
+                                    আমাকে পুনঃপুন অনুরোধ করিতেন,
+                                    আমি তখন তাঁহাদের উপহাস করিতাম।
                                     <span>"</span>
                                 </div>
                                 <div class="review-bottom">
@@ -863,7 +889,11 @@
                             <div class="review-item">
                                 <div class="review-text">
                                     <span>"</span>
-                                    মানুষ আসবার পূর্বেই জীবসৃষ্টিযজ্ঞে প্রকৃতির ভূরিব্যয়ের পালা শেষ হয়ে এসেছে। বিপুল মাংস, কঠিন বর্ম, প্রকাণ্ড লেজ নিয়ে জলে স্থলে পৃথুল দেহের যে অমিতাচার প্রবল হয়ে উঠেছিল তাতে ধরিত্রীকে দিলে ক্লান্ত করে। প্রমাণ হল আতিশয্যের পরাভব অনিবার্য। পরীক্ষায় এটাও স্থির হয়ে গেল যে প্রদেশটিকে ভাগ করা হয়। পাকিস্তান এর প্রদেশ হিসাবে জন্ম নেয় পূর্ব পাকিস্তান
+                                    মানুষ আসবার পূর্বেই জীবসৃষ্টিযজ্ঞে প্রকৃতির ভূরিব্যয়ের পালা শেষ হয়ে এসেছে। বিপুল
+                                    মাংস, কঠিন বর্ম, প্রকাণ্ড লেজ নিয়ে জলে স্থলে পৃথুল দেহের যে অমিতাচার প্রবল হয়ে
+                                    উঠেছিল তাতে ধরিত্রীকে দিলে ক্লান্ত করে। প্রমাণ হল আতিশয্যের পরাভব অনিবার্য।
+                                    পরীক্ষায় এটাও স্থির হয়ে গেল যে প্রদেশটিকে ভাগ করা হয়। পাকিস্তান এর প্রদেশ হিসাবে
+                                    জন্ম নেয় পূর্ব পাকিস্তান
                                     <span>"</span>
                                 </div>
                                 <div class="review-bottom">
@@ -881,7 +911,9 @@
                             <div class="review-item">
                                 <div class="review-text">
                                     <span>"</span>
-                                    মানুষকে দেখতে হল খুব ছোটো, কিন্তু সেটা একটা কৌশল মাত্র। এবারকার জীবযাত্রার পালায় বিপুলতাকে করা হল বহুলতায় পরিণত। মহাকায় জন্তু ছিল প্রকাণ্ড একলা, মানুষ হল দূরপ্রসারিত অনেক।
+                                    মানুষকে দেখতে হল খুব ছোটো, কিন্তু সেটা একটা কৌশল মাত্র। এবারকার জীবযাত্রার পালায়
+                                    বিপুলতাকে করা হল বহুলতায় পরিণত। মহাকায় জন্তু ছিল প্রকাণ্ড একলা, মানুষ হল
+                                    দূরপ্রসারিত অনেক।
                                     <span>"</span>
                                 </div>
                                 <div class="review-bottom">
@@ -899,7 +931,9 @@
                             <div class="review-item">
                                 <div class="review-text">
                                     <span>"</span>
-                                    প্র্যাকটিক্যাল প্রজেক্ট ছাড়া যেকোনো শিক্ষা অপূর্ণ। এক জরিপে দেখা গেছে, কেবল হাতে-কলমে প্র্যাকটিক্যাল প্রজেক্ট ছাড়া যেকোনো শিক্ষা অপূর্ণ। এক জরিপে দেখা গেছে, কেবল হাতে-কলমে শিক্ষার অভাবে চাকরি জীবনে ভোগান্তির
+                                    প্র্যাকটিক্যাল প্রজেক্ট ছাড়া যেকোনো শিক্ষা অপূর্ণ। এক জরিপে দেখা গেছে, কেবল
+                                    হাতে-কলমে প্র্যাকটিক্যাল প্রজেক্ট ছাড়া যেকোনো শিক্ষা অপূর্ণ। এক জরিপে দেখা গেছে,
+                                    কেবল হাতে-কলমে শিক্ষার অভাবে চাকরি জীবনে ভোগান্তির
                                     <span>"</span>
                                 </div>
                                 <div class="review-bottom">
@@ -917,7 +951,10 @@
                             <div class="review-item">
                                 <div class="review-text">
                                     <span>"</span>
-                                    মানুষ আসবার পূর্বেই জীবসৃষ্টিযজ্ঞে প্রকৃতির ভূরিব্যয়ের পালা শেষ হয়ে এসেছে। বিপুল মাংস, কঠিন বর্ম, প্রকাণ্ড লেজ নিয়ে জলে স্থলে পৃথুল দেহের যে অমিতাচার প্রবল হয়ে উঠেছিল তাতে ধরিত্রীকে দিলে ক্লান্ত করে। প্রমাণ হল আতিশয্যের পরাভব অনিবার্য। পরীক্ষায় এটাও স্থির হয়ে গেল যে
+                                    মানুষ আসবার পূর্বেই জীবসৃষ্টিযজ্ঞে প্রকৃতির ভূরিব্যয়ের পালা শেষ হয়ে এসেছে। বিপুল
+                                    মাংস, কঠিন বর্ম, প্রকাণ্ড লেজ নিয়ে জলে স্থলে পৃথুল দেহের যে অমিতাচার প্রবল হয়ে
+                                    উঠেছিল তাতে ধরিত্রীকে দিলে ক্লান্ত করে। প্রমাণ হল আতিশয্যের পরাভব অনিবার্য।
+                                    পরীক্ষায় এটাও স্থির হয়ে গেল যে
                                     <span>"</span>
                                 </div>
                                 <div class="review-bottom">
@@ -950,10 +987,11 @@
                     <div class="shape-2">
                         <img src="./images/shape-2.png" alt="">
                     </div>
-                     <div class="footer-top-content-wrap">
-                         <h4>সকল কোর্সে ভর্তি চলছে</h4>
-                         <p>ক্যারিয়ার গড়ার সিদ্ধান্ত নিতে আর দেরি নয়। অনলাইন বা অফলাইন যেকোনো কোর্সে আপনার সুবিধামতো সময়ে ভর্তি হয়ে যান এখনই।</p>
-                         <div class="footer-top-content-btns">
+                    <div class="footer-top-content-wrap">
+                        <h4>সকল কোর্সে ভর্তি চলছে</h4>
+                        <p>ক্যারিয়ার গড়ার সিদ্ধান্ত নিতে আর দেরি নয়। অনলাইন বা অফলাইন যেকোনো কোর্সে আপনার সুবিধামতো সময়ে
+                            ভর্তি হয়ে যান এখনই।</p>
+                        <div class="footer-top-content-btns">
                             <a href="#">
                                 <div class="btn active-btn">
                                     জয়েন ফ্রি সেমিনার
@@ -964,8 +1002,8 @@
                                     ব্রাউজ কোর্স
                                 </div>
                             </a>
-                         </div>
-                     </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -980,17 +1018,18 @@
                                     <div>
                                         <i class="fa-solid fa-location-dot"></i>
                                     </div>
-                                   <span> হেড অফিস :মমতাজ প্লাজা (৫ম তলা) বাড়ি # ০৭, রোড # ০৪ ধানমন্ডি, ঢাকা-১২০৫</span>
+                                    <span> হেড অফিস :মমতাজ প্লাজা (৫ম তলা) বাড়ি # ০৭, রোড # ০৪ ধানমন্ডি,
+                                        ঢাকা-১২০৫</span>
                                 </div>
                                 <div class="wrap-content">
                                     <div>
                                         <i class="fa-solid fa-phone"></i>
                                     </div>
-                                   <ul>
-                                    <li><a href="#"> +88 01233237536 </a></li>
-                                    <li><a href="#"> +88 01233237546 </a></li>
-                                    <li><a href="#"> +88 01233237537 </a></li>
-                                   </ul>
+                                    <ul>
+                                        <li><a href="#"> +88 01233237536 </a></li>
+                                        <li><a href="#"> +88 01233237546 </a></li>
+                                        <li><a href="#"> +88 01233237537 </a></li>
+                                    </ul>
                                 </div>
                                 <div class="pay-numbers">
                                     <span>মার্চেন্ট নাম্বার </span>
@@ -1050,26 +1089,107 @@
             <div class="container">
                 <div class="footer-bottom-wrapper">
                     <div class="footer-bottom-wrap">
-                         <div class="footer-img">
+                        <div class="footer-img">
                             <img src="./images/logo.png" alt="">
-                         </div>
-                         <div class="icon-list">
+                        </div>
+                        <div class="icon-list">
                             <i class="fa-brands fa-facebook-f"></i>
                             <i class="fa-brands fa-linkedin-in"></i>
                             <i class="fa-brands fa-youtube"></i>
                             <i class="fa-brands fa-instagram"></i>
-                         </div>
-                         <h5>Copyright © 2024 All right reserved by <span>Lemmesay BD Ltd.</span> </h5>
+                        </div>
+                        <h5>Copyright © 2024 All right reserved by <span>Lemmesay BD Ltd.</span> </h5>
                     </div>
                 </div>
-            </div> 
+            </div>
         </div>
     </footer>
     <!----------- Review Section   End  ------------>
 
     <!------- Back to Top Button --------->
-    <a id="button"></a>
+    <a id="button-back"></a>
 
+
+
+    <!--------- Discount Modal Box Start ----------->
+    <div class="modal fade" id="discountFormModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg discount-form-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   <div class="discount-modal-body">
+                      <h4>অফারটি সম্পর্কে জানতে নিম্নে প্রদত্ত ফর্মটি এখনই পূরণ করুন,</h4>
+                      <h4>আমাদের প্রতিনিধি শীঘ্রই আপনার সাথে যোগাযোগ করবেঃ</h4>
+                      <div class="contact-form">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" name="" id="floatingInput">
+                                        <label for="floatingInput">আপনার নাম</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-floating">
+                                        <input type="Number" class="form-control" name="" id="floatingInput">
+                                        <label for="floatingInput">ফোন নম্বর*</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" name="" id="floatingInput">
+                                        <label for="floatingInput">লোকেশন</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" name="" id="floatingInput">
+                                        <label for="floatingInput">প্রফেশন</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <select class="form-select form-control" aria-label="Default select example">
+                                        <option selected>কোর্সের নাম*</option>
+                                        <option value="1">Professional Graphics Design</option>
+                                        <option value="2">Motion Graphics</option>
+                                        <option value="3">Ux Ui Design</option>
+                                        <option value="4">Image Editing</option>
+                                        <option value="5">Adobe PhotoShop</option>
+                                        <option value="6">Adobe illustrator</option>
+                                        <option value="7">Digital Marketing</option>
+                                        <option value="9">Web Development</option>
+                                        <option value="10">MERN Stack Development</option>
+                                        <option value="11">App Development with Kotlin</option>
+                                        <option value="12">Python Django</option>
+                                        <option value="13">Python Machine Learning</option>
+                                        <option value="14">Cyber Security Certified Ethical Hacker</option>
+                                        <option value="15">Professional 3D Animation</option>
+                                        <option value="16">Professional Interior &amp; Exterior Design</option>
+                                        <option value="17">3D Product Modeling</option>
+                                        <option value="18">3D Floor Plan</option>
+                                        <option value="19">Affiliate Marketing</option>
+                                        <option value="20">Google AdSense</option>
+                                      </select>
+                                </div>
+                                <div class="col-lg-12">
+                                    <button class="submit-btn">
+                                        সাবমিট করুন
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                      </div>
+
+                      <h5> <span> প্রয়োজনেঃ </span> 01234254262, 917283163, 1973813681, 17863861381, </h5>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------- Discount Modal Box END ----------->
 
     <!--
      Javascript Script Linker Part

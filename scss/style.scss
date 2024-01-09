@@ -38,7 +38,9 @@ Version      : 1.1.1
 @import "../scss/header";
 @import "../scss/footer";
 @import "../scss/commonHero";
-@import "../scss/categoryCard.scss";
+@import "../scss/categoryCard";
+@import "../scss/discountModal";
+
 
 // Index Page 
 @import "../scss/indexPage/hero";
@@ -54,6 +56,13 @@ Version      : 1.1.1
 // About Page
 @import "../scss/aboutPage/counter";
 @import "../scss/aboutPage/mission";
+
+// Contact Page
+@import "../scss/contactPage/contact";
+
+// Seminar Page
+@import "../scss/seminarPage/seminar";
+
 
 
 

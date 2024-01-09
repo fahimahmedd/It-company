@@ -89,7 +89,7 @@ $(function () {
 
 
   // Back to Top
-  var btn = $("#button");
+  var btn = $("#button-back");
   $(window).scroll(function () {
     if ($(window).scrollTop() > 300) {
       btn.addClass("show");

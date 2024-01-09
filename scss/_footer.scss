@@ -229,7 +229,7 @@
 
 
 
-#button {
+#button-back {
   display: inline-block;
   background-color: #FF9800;
   width: 50px;
@@ -240,12 +240,12 @@
   bottom: 30px;
   right: 30px;
   transition: background-color .3s, 
-    opacity .5s, visibility .5s;
+  opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
 }
-#button::after {
+#button-back::after {
   content: "\f077";
   font-family: FontAwesome;
   font-weight: normal;
@@ -254,14 +254,14 @@
   line-height: 50px;
   color: #fff;
 }
-#button:hover {
+#button-back:hover {
   cursor: pointer;
   background-color: #333;
 }
-#button:active {
+#button-back:active {
   background-color: #555;
 }
-#button.show {
+#button-back.show {
   opacity: 1;
   visibility: visible;
 }

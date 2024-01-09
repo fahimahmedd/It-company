@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iCircles </title>
-    <link rel="shortcut icon" href="" type="image/png">
+    <title>Lemmesay IT </title>
+    <link rel="icon" type="image/x-icon" href="./images/LMS-1.jpg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -57,11 +57,11 @@
                     <div class="nav-wrapper">
                         <ul>
                             <li><a href="index.html"> হোম</a></li>
-                            <li><a href="#"> আমাদের সম্পর্কে </a></li>
-                            <li><a href="#"> সাফল্যের গল্প </a></li>
-                            <li><a href="#"> যোগাযোগ </a></li>
+                            <li><a href="about.html"> আমাদের সম্পর্কে </a></li>
+                            <li><a href="success.html"> সাফল্যের গল্প </a></li>
+                            <li><a href="contact.html"> যোগাযোগ </a></li>
                         </ul>
-                        <a href="#">
+                        <a href="seminer.html">
                             <div class="course_btn free-seminar">
                                 ফ্রি সেমিনার
                             </div>
@@ -306,11 +306,10 @@
                                         Click for Discount
                                     </div>
                                 </div>
-                                <a href="#">
-                                    <div class="course-join-btn">
+                                <div class="course-join-btn" data-bs-toggle="modal"
+                                    data-bs-target="#joinCourseFormModal">
                                         কোর্সে ভর্তি হোন
                                     </div>
-                                </a>
                                 <div class="call-data">
                                     কল করুন <a href="#">+8801960999918</a> (সকাল ১০টা থেকে রাত ১০টা)
                                 </div>
@@ -320,11 +319,6 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="container">
-             <div class="course-detail-wrapper">
-                 
-             </div>
-         </div> -->
     </div>
     <!-------- Course Category Cards End  --------->
 
@@ -461,7 +455,93 @@
     <!----------- Review Section   End  ------------>
 
     <!------- Back to Top Button --------->
-    <a id="button"></a>
+    <a id="button-back"></a>
+
+
+    <!--------- Course Join Form Start ---------->
+    <div class="modal fade" id="joinCourseFormModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg join-course-form-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   <div class="join-course-modal-body">
+                       <div class="logo">
+                        <img src="./images/logo.png" alt="">
+                       </div>
+                       <h2>নিচের ফর্মটি সঠিক ভাবে পূরণ করুন </h2>
+                       <h3>ফর্মটি পূরণ করার পর আমাদের প্রতিনিধি শীঘ্রই আপনার সাথে যোগাযোগ করবেন। </h3>
+                      <div class="contact-form">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" name="" id="floatingInput">
+                                        <label for="floatingInput">আপনার নাম (English)</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-floating">
+                                        <input type="number" class="form-control" name="" id="floatingInput">
+                                        <label for="floatingInput">ফোন নম্বর* (English)</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" name="" id="floatingInput">
+                                        <label for="floatingInput">ই-মেইল (English)</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <select class="form-select form-control" aria-label="Default select example">
+                                        <option selected>কোর্সের নাম*</option>
+                                        <option value="1">Professional Graphics Design</option>
+                                        <option value="2">Motion Graphics</option>
+                                        <option value="3">Ux Ui Design</option>
+                                        <option value="4">Image Editing</option>
+                                        <option value="5">Adobe PhotoShop</option>
+                                        <option value="6">Adobe illustrator</option>
+                                        <option value="7">Digital Marketing</option>
+                                        <option value="9">Web Development</option>
+                                        <option value="10">MERN Stack Development</option>
+                                        <option value="11">App Development with Kotlin</option>
+                                        <option value="12">Python Django</option>
+                                        <option value="13">Python Machine Learning</option>
+                                        <option value="14">Cyber Security Certified Ethical Hacker</option>
+                                        <option value="15">Professional 3D Animation</option>
+                                        <option value="16">Professional Interior &amp; Exterior Design</option>
+                                        <option value="17">3D Product Modeling</option>
+                                        <option value="18">3D Floor Plan</option>
+                                        <option value="19">Affiliate Marketing</option>
+                                        <option value="20">Google AdSense</option>
+                                      </select>
+                                </div>
+                                <div class="col-lg-12 mt-3">
+                                    <select class="form-select form-control" aria-label="Default select example">
+                                        <option selected>আপনার কোর্সটির ধরন*</option>
+                                        <option value="1">অফলাইন / (OFFLINE)</option>
+                                        <option value="2">অনলাইন / (ONLINE)</option>
+                                      </select>
+                                </div>
+                                <div class="col-lg-12 mt-2">
+                                    <button class="submit-btn">
+                                        সাবমিট করুন
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                      </div>
+
+                      <h5> <span> প্রয়োজনেঃ </span> 01234254262, 917283163, 1973813681, 17863861381, </h5>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------- Course Join Form Start ---------->
+
 
 
     <!--

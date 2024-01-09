@@ -1,0 +1,116 @@
+.contact {
+  .contact-wrapper {
+    max-width: 1050px;
+    margin: 0 auto;
+    border: 1px solid #c3c3c3;
+    border-radius: 16px;
+
+    .contact-iframe {
+      padding: 20px;
+      iframe {
+        height: 350px;
+        width: 100%;
+        background-color: #f3f3f3;
+        padding-top: 5px;
+      }
+    }
+    .contact-content {
+      padding: 20px;
+      h4 {
+        font-size: 22px;
+        font-weight: 600;
+        color: $secondaryColor;
+      }
+      p {
+        color: $blackColor;
+        font-family: "Roboto", sans-serif;
+      }
+      ul {
+        padding-top: 5px;
+        li {
+          margin-top: 8px;
+          a {
+            color: $blackColor;
+            font-size: 18px;
+            i {
+              font-size: 14px;
+              margin-right: 3px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.contact-form {
+  max-width: 750px;
+  margin: 80px auto;
+  background-color: rgba(214, 224, 235, 0.421);
+  padding: 50px 30px;
+  border-radius: 16px;
+  h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: $blackColor;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+  .massage {
+    height: 120px !important;
+  }
+  .form-floating {
+    margin-bottom: 13px;
+    .form-control {
+      border-radius: 8px;
+      height: 60px;
+      padding: 20px 10px 5px 15px;
+      font-size: 15px;
+      border: 1px solid #c7c6c6;
+      &:focus {
+        outline: 0;
+        box-shadow: none;
+        border-color: #c3c3c3;
+      }
+    }
+    label {
+      font-size: 16px;
+      padding: 15px 10px 10px 15px;
+      color: #161616;
+      font-weight: 500;
+    }
+    .textarea-control{
+      padding: 30px 10px 5px 15px;
+    }
+  }
+  .form-select {
+    height: 60px;
+    border-radius: 8px;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .submit-btn {
+    margin-top: 10px;
+    padding: 10px 35px;
+    background-color: $primaryColor;
+    color: $whiteColor;
+    font-size: 16px;
+    border-radius: 5px;
+    &:hover {
+      background-color: $hoverPrimary;
+    }
+  }
+}
+.contact_btn {
+  margin-top: 20px;
+  padding: 10px 35px;
+  background-color: $primaryColor;
+  color: $whiteColor;
+  font-size: 16px;
+  border-radius: 5px;
+  &:hover {
+    background-color: $whiteColor;
+    color: $blackColor;
+  }
+}

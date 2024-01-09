@@ -1,0 +1,76 @@
+.seminar{
+    .seminar-wrapper{
+        max-width: 850px;
+        margin: 0 auto;
+
+        .seminar-wrap{
+            height: 180px;
+            background-color: #ffffff;
+            margin-bottom: 30px;
+            overflow: hidden;
+            border-radius: 17px;
+            display: flex;
+            cursor: pointer;
+            border: 1px solid #c3c3c362;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.237) 0px 0px 5px 0px, rgba(0, 0, 0, 0.179) 0px 0px 1px 0px;
+                transform: scale(1.03);
+                border: 1px solid transparent;
+                transition: $transition;
+            }
+            .seminar-wrap-left{
+                height: 100%;
+                width: 30%;
+                background-color: $primaryColor;
+                padding: 20px;
+                h5{
+                    font-size: 17px;
+                    color: #f1f1f1;
+                    font-weight: 400;
+                }
+                h4{
+                    font-size: 30px;
+                    color: $whiteColor;
+                    font-weight: 600;
+                    line-height: 40px;
+                }
+            }
+            .seminar-wrap-right{
+                height: 100%;
+                width: 70%;
+                padding: 25px 20px 20px 20px;
+
+                h3{
+                    font-size: 34px;
+                    font-weight: 600;
+                    color: $blackColor;
+                    span{
+                        color: $secondaryColor;
+                    }
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 15px;
+                    line-height: 23px;
+                    @include text-ellips-2;
+                }
+                .join-btn-wrap{
+                    display: flex;
+                    justify-content: flex-end;
+                }
+                .join-btn{
+                    padding: 7px 20px;
+                    font-size: 15px;
+                    color: $whiteColor;
+                    background-color: $primaryColor;
+                    display: inline-block;
+                    border-radius: 35px;
+                    &:hover{
+                        background-color: $hoverPrimary;
+                    }
+                }
+            }
+        }
+    }
+}

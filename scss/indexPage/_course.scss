@@ -189,6 +189,7 @@
   }
   .course-item-content{
       padding: 15px;
+      position: relative;
       h4{
           font-size: 13px;
           font-weight: 500;
@@ -217,37 +218,37 @@
                   font-size: 14px;
               }
       }
-      .course-item-footer{
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          margin-top: 15px;
-          .course-fee{
-              font-size: 24px;
-              font-weight: 700;
-              color: $blackColor;
-              span{
-                  font-size: 14px;
-                  color: $textColor;
-                  font-weight: 500;
-              }
-          }
-          .discount-btn{
-              padding: 4px 10px;
-              background-color: $primaryColor;
-              border: 1px solid $primaryColor;
-              border-radius: 6px;
-              color: $whiteColor;
-              font-size: 13px;
-              font-weight: 400;
-              font-family: 'Roboto', sans-serif;
-              cursor: pointer;
-              &:hover{
-                  background-color: $hoverPrimary;
-              }
-          }
-      }
   }
+  .course-item-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    .course-fee{
+        font-size: 24px;
+        font-weight: 700;
+        color: $blackColor;
+        span{
+            font-size: 14px;
+            color: $textColor;
+            font-weight: 500;
+        }
+    }
+    .discount-btn{
+        padding: 4px 10px;
+        background-color: $primaryColor;
+        border: 1px solid $primaryColor;
+        border-radius: 6px;
+        color: $whiteColor;
+        font-size: 13px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+        &:hover{
+            background-color: $hoverPrimary;
+        }
+    }
+}
 }
 
 
@@ -255,7 +256,13 @@
     .course-list-wrapper{
       max-width: 1000px;
       margin: 40px auto;
-
+      h6{
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 46px;
+        color: $blackColor;
+        margin-bottom: 40px;
+      }
       h3{
         font-size: 26px;
         font-weight: 600;

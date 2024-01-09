@@ -40,6 +40,11 @@
                     a{
                         font-size: 17px;
                         font-weight: 500;
+                        position: relative;
+                        color: $blackColor;
+                        &:hover{
+                            color: $primaryColor;
+                        }
                     }
                 }
             }
@@ -52,6 +57,9 @@
                 font-size: 19px;
                 font-weight: 500;
                 line-height: 26px;
+                &:hover{
+                    background-color: $hoverPrimary;
+                }
                 i{
                     margin: 0 3px;
                 }
@@ -63,7 +71,13 @@
                 background-color: $whiteColor;
                 color: $primaryColor;
                 font-size: 17px;
+                border: 2px solid $primaryColor;
                 line-height: 26px;
+                padding: 9px 25px;
+                &:hover{
+                    background-color: $hoverPrimary;
+                    color: $whiteColor;
+                }
             }
         }
     }
